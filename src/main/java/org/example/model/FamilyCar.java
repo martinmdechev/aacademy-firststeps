@@ -1,5 +1,12 @@
 package org.example.model;
 
 public class FamilyCar extends Car{
-        private int seats;
+        private boolean hasKidsSeat;
+
+        public boolean isHasKidsSeat() {
+                return hasKidsSeat;
+        }
+        public void setHasKidsSeat(boolean hasKidsSeat) {
+                this.hasKidsSeat = hasKidsSeat;
+        }
 }
