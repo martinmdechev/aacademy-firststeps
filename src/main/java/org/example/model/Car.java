@@ -10,7 +10,7 @@ import java.util.Objects;
 @Builder
 @Data
 public class Car {
-    private String brand;
+    private String manufacturer;
     private String model;
     private String engineVolume;
 
